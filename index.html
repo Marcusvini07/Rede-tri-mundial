@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Classicos Memoraveis</title>
+</head>
+
+<body>
+    <!-- Página de Boas-vindas -->
+    <section class="welcome-screen">
+        <div class="welcome-content">
+            <h1>Bem-vindo ao Classicos Memoraveis!</h1>
+            <p>Descubra o único tri mundial do Brasil e muito mais.</p>
+            <button id="enter-button" class="enter-button">Entrar</button>
+        </div>
+    </section>
+
+    <!-- Página principal do site -->
+    <section class="main-content">
+        <header>REDE TRI-MUNDIAL</header>
+
+        <section class="chamada">
+            <div class="chamada-texto">
+                <h1>UNICO TRI MUNDIAL DO BRASIL</h1>
+                <p>#Tricolor</p>
+            </div>
+
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wXYpm-uX-BA?si=NzhUC-R68-RhdQbE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>Batendo nos rivais kkkkkkkk</h2>
+            <div class="categoria-videos">
+                <a href="https://www.youtube.com/watch?v=kO9ipPsuqnE">
+                    <img src="https://img.youtube.com/vi/kO9ipPsuqnE/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=ckHxJLeads8">
+                    <img src="https://img.youtube.com/vi/ckHxJLeads8/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=WW_18mkXHjo">
+                    <img src="https://img.youtube.com/vi/WW_18mkXHjo/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=wOKEJH9f5x0">
+                    <img src="https://img.youtube.com/vi/wOKEJH9f5x0/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=4YceVCQt6p4">
+                    <img src="https://img.youtube.com/vi/4YceVCQt6p4/maxresdefault.jpg" />
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <script>
+        document.getElementById('enter-button').addEventListener('click', function() {
+            document.querySelector('.welcome-screen').style.display = 'none';
+            document.querySelector('.main-content').style.display = 'block';
+        });
+    </script>
+</body>
+
+</html>
+
